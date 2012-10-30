@@ -20,6 +20,11 @@ int main(int argc, char** argv)
 		ret = -2;
 	}
 	
+    //Plugin plugin1("libeagle.so");
+	//pInterface = plugin1.getInterface();
+	//IBird *pBird = dynamic_cast<IBird*>(pInterface);
+    //plugin1.unload();
+	
 	plugin.unload();
 	return ret;
 }
